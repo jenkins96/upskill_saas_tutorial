@@ -20,7 +20,7 @@
      font-family: 'Open Sans', sans-serif;
  }
  
- body, .navbar{
+ .navbar, .home-callout{
   
   background: #3CA55C;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
@@ -30,3 +30,9 @@
  .navbar{
    border:none;
  }
+.home-callout{
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  color: white;
+}
