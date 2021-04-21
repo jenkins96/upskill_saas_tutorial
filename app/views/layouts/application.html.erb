@@ -5,7 +5,9 @@
     <%= csrf_meta_tags %>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag "https://js.stripe.com/v2/", type: 'text/javascript' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= tag :meta, :name => "stripe-key", :content => "pk_test_51IiVVRKH5ooJNoHbXtWYH2EZSiM0rZH615WsmAvlgSgM1fjW9TWkpAy54O2Jy3X0a9nYOBvcL8Ourhfgj9V8dfQA00hwfL3HY1" %>
   </head>
 
   <body>
