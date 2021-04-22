@@ -47,6 +47,10 @@ gem 'stripe', '1.48.0'
 # Use Figaro for ENV variables
 gem 'figaro', '1.1.1'
 
+# Papperclip depends on 'mimemagic' and now it is under GPL license.
+# Found this repository thar removes it
+gem 'paperclip', git: 'https://github.com/sd/paperclip', branch: 'remove-mimemagic'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '1.3.13'
